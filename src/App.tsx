@@ -1,7 +1,4 @@
 import React from 'react';
+import { Routes } from './routes/routes';
 
-function App() {
-  return <div className="App">Hello World</div>;
-}
-
-export default App;
+export const App: React.FC = () => <Routes />;
